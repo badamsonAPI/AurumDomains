@@ -76,3 +76,9 @@ footer {
     font-size: 0.9rem;
     color: #999999;
 }
+
+.site-logo {
+  max-height: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
