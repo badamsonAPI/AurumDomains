@@ -76,7 +76,7 @@ footer {
 }
 
 .site-logo {
-  max-height: 200px;
+  max-height: 300px;
   display: block;
   margin: 0 auto 15px;
   padding: 10px
@@ -85,6 +85,12 @@ footer {
 
 @media (max-width: 600px) {
   .domain-logo {
+    max-height: 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-logo {
     max-height: 90px;
   }
 }
