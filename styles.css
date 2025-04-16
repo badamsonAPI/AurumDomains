@@ -1,13 +1,11 @@
-
 .domain-logo {
-    height: 100px;
-    object-fit: contain;
-    margin-bottom: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  max-height: 130px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px auto;
+  padding: 5px;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -81,4 +79,10 @@ footer {
   max-height: 100px;
   display: block;
   margin: 0 auto 10px;
+}
+
+@media (max-width: 600px) {
+  .domain-logo {
+    max-height: 90px;
+  }
 }
