@@ -77,14 +77,16 @@ header p {
   text-decoration: none;
   font-weight: bold;
   border-radius: 4px;
-  transition: all 0.3s ease;
+  transition: all 0.25s ease;
   box-shadow: 0 0 0 transparent;
+  display: inline-block;
 }
 
 .offer-button:hover {
   background: #ffce00;
-  transform: scale(1.05);
-  box-shadow: 0 0 10px rgba(255, 206, 0, 0.6);
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(255, 206, 0, 0.75);
+  filter: brightness(1.1);
 }
 
 footer {
