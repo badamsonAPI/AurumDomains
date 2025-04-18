@@ -85,7 +85,7 @@ header p {
 .offer-button:hover {
   background: #ffce00;
   transform: scale(1.08);
-  box-shadow: 0 0 10px rgba(255, 206, 0, 0.75);
+  box-shadow: 0 0 10px rgba(255, 200, 0, 0.5);
   filter: brightness(1.1);
 }
 
