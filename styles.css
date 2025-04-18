@@ -96,22 +96,23 @@ footer {
 }
 
 .filter-buttons button {
-  background-color: #111;
-  color: #fff;
+  background: linear-gradient(145deg, #d4af37, #c1972e);
+  color: #000;
   border: none;
-  margin: 0 10px;
-  padding: 10px 20px;
+  margin: 0 12px;
+  padding: 12px 24px;
   font-size: 14px;
-  font-weight: 600;
-  border-radius: 5px;
+  font-weight: 700;
+  border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .filter-buttons button:hover {
-  background-color: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
 }
-
 
 @media (max-width: 600px) {
   .site-logo {
