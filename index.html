@@ -362,9 +362,9 @@
     const cards = document.querySelectorAll('.domain-card');
     cards.forEach(card => {
       if (ext === 'all' || card.classList.contains(ext)) {
-        card.style.display = 'block';
+        card.classList.remove('hide');
       } else {
-        card.style.display = 'none';
+        card.classList.add('hide');
       }
     });
   }
