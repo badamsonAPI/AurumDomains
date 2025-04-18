@@ -49,6 +49,11 @@ header p {
   transform: scale(1);
 }
 
+.domain-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.08);
+}
+
 .domain-card.hide {
   opacity: 0;
   transform: scale(0.95);
