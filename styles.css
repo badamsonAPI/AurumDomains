@@ -89,6 +89,18 @@ footer {
   }
 }
 
+.filter-buttons {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.filter-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .site-logo {
     max-height: 90px;
