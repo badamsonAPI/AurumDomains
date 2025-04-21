@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aurum Domains – Private Collection</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 20px 60px;
+            background: #000;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: #d4af37;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #bfbfbf;
+            margin-bottom: 30px;
+        }
+
+        .cta {
+            display: inline-block;
+            background-color: transparent;
+            border: 1px solid #d4af37;
+            color: #d4af37;
+            padding: 12px 24px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #d4af37;
+            color: #000;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .domain-card {
+            border: 1px solid #222;
+            padding: 30px 20px;
+            text-align: center;
+            transition: border-color 0.3s ease, transform 0.2s ease;
+            cursor: pointer;
+        }
+
+        .domain-card:hover {
+            border-color: #d4af37;
+            color: #d4af37;
+            transform: translateY(-4px);
+        }
+
+        .domain-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .domain-card a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #888;
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+        }
+    
+        @keyframes shimmer {
+            0% { opacity: 1; filter: brightness(1); }
+            50% { opacity: 0.95; filter: brightness(1.15); }
+            100% { opacity: 1; filter: brightness(1); }
+        }
+
+        .shimmer-logo {
+            animation: shimmer 3s infinite ease-in-out;
+        }
+
+.accordion-toggle {
+    background: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+    padding: 12px 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.3s ease;
+}
+
+.accordion-toggle:hover {
+    background-color: #d4af37;
+    color: #000;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+    background: #111;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    color: #ccc;
+}
+
+.accordion-content.open {
+    max-height: 400px;
+    padding: 20px;
+}
+
+.accordion-content {
+    opacity: 0;
+    transition: max-height 0.5s ease, padding 0.3s ease, opacity 0.5s ease;
+}
+.accordion-content.open {
+    opacity: 1;
+}
+</style>
+</head>
+<body>
+<header><img alt="Aurum Domains Logo" class="shimmer-logo" src="assets/logos/aurum-logo.png" style="width: 160px; margin-bottom: 30px; display: block; margin-left: auto; margin-right: auto;"/><hr style="border: none; height: 1px; background: #d4af37; width: 80px; margin: 20px auto;"/>
+<h1>Aurum Domains</h1>
+<p class="tagline">Privately Offered Digital Real Estate</p>
+<a class="cta" href="#collection">View Collection</a><hr style="border: none; height: 1px; background: #d4af37; width: 100%; margin: 50px auto 30px;"/>
+</header>
+<div class="info-sections" style="max-width: 800px; margin: 0 auto; padding: 0 20px;">
+<div class="accordion">
+<button class="accordion-toggle">How this works</button>
+<div class="accordion-content">Submit a private bid by clicking on any domain name. All bids are reviewed individually. Selected bidders will receive access codes to complete the acquisition process confidentially.</div>
+<button class="accordion-toggle">About us</button>
+<div class="accordion-content">Aurum Domains is a curated portfolio of premium, forward-thinking domain assets. Each name is privately offered by invitation only to innovators and investors operating in the UAE and beyond.</div>
+</div>
+</div><section class="grid" id="collection">
+<div class="domain-card"><a href="https://uaegdp.com" target="_blank"><h3>UAEGDP.com</h3></a></div>
+<div class="domain-card"><a href="https://nohmex.com" target="_blank"><h3>Nohmex.com</h3></a></div>
+<div class="domain-card"><a href="https://tempovault.com" target="_blank"><h3>TempoVault.com</h3></a></div>
+<div class="domain-card"><a href="https://walletoracle.com" target="_blank"><h3>WalletOracle.com</h3></a></div>
+<div class="domain-card"><a href="https://digiwin.ai" target="_blank"><h3>DigiWin.ai</h3></a></div>
+<div class="domain-card"><a href="https://metadebug.com" target="_blank"><h3>MetaDebug.com</h3></a></div>
+<div class="domain-card"><a href="https://metaversesandbox.com" target="_blank"><h3>MetaverseSandbox.com</h3></a></div>
+<div class="domain-card"><a href="https://metatimeline.com" target="_blank"><h3>MetaTimeline.com</h3></a></div>
+<div class="domain-card"><a href="https://defifortress.com" target="_blank"><h3>DeFiFortress.com</h3></a></div>
+<div class="domain-card"><a href="https://xparagon.com" target="_blank"><h3>XParagon.com</h3></a></div>
+<div class="domain-card"><a href="https://accountsapi.com" target="_blank"><h3>AccountsAPI.com</h3></a></div>
+<div class="domain-card"><a href="https://investingapi.com" target="_blank"><h3>InvestingAPI.com</h3></a></div>
+<div class="domain-card"><a href="https://fundsapi.com" target="_blank"><h3>FundsAPI.com</h3></a></div>
+<div class="domain-card"><a href="https://revenueapi.com" target="_blank"><h3>RevenueAPI.com</h3></a></div>
+<div class="domain-card"><a href="https://budgetapi.com" target="_blank"><h3>BudgetAPI.com</h3></a></div>
+<div class="domain-card"><a href="https://luperai.com" target="_blank"><h3>LuperAI.com</h3></a></div>
+<div class="domain-card"><a href="https://kompactai.com" target="_blank"><h3>KompactAI.com</h3></a></div>
+<div class="domain-card"><a href="https://advbtc.com" target="_blank"><h3>ADVBTC.com</h3></a></div>
+<div class="domain-card"><a href="https://signumx.com" target="_blank"><h3>SignumX.com</h3></a></div>
+<div class="domain-card"><a href="https://algomind.xyz" target="_blank"><h3>AlgoMind.xyz</h3></a></div>
+<div class="domain-card"><a href="https://duvo.xyz" target="_blank"><h3>Duvo.xyz</h3></a></div>
+<div class="domain-card"><a href="https://tokenaire.xyz" target="_blank"><h3>Tokenaire.xyz</h3></a></div>
+<div class="domain-card"><a href="https://nefo.xyz" target="_blank"><h3>Nefo.xyz</h3></a></div>
+<div class="domain-card"><a href="https://hovu.xyz" target="_blank"><h3>Hovu.xyz</h3></a></div>
+<div class="domain-card"><a href="https://dexola.xyz" target="_blank"><h3>Dexola.xyz</h3></a></div>
+<div class="domain-card"><a href="https://jepo.xyz" target="_blank"><h3>Jepo.xyz</h3></a></div>
+<div class="domain-card"><a href="https://cryptovia.xyz" target="_blank"><h3>Cryptovia.xyz</h3></a></div>
+<div class="domain-card"><a href="https://sleekmind.xyz" target="_blank"><h3>Sleekmind.xyz</h3></a></div>
+<div class="domain-card"><a href="https://paragonx.xyz" target="_blank"><h3>ParagonX.xyz</h3></a></div>
+<div class="domain-card"><a href="https://advbtc.xyz" target="_blank"><h3>ADVBTC.xyz</h3></a></div>
+<div class="domain-card"><a href="https://xatu.xyz" target="_blank"><h3>Xatu.xyz</h3></a></div>
+<div class="domain-card"><a href="https://skyu.xyz" target="_blank"><h3>Skyu.xyz</h3></a></div>
+<div class="domain-card"><a href="https://ethernals.xyz" target="_blank"><h3>Ethernals.xyz</h3></a></div>
+<div class="domain-card"><a href="https://clustered.xyz" target="_blank"><h3>Clustered.xyz</h3></a></div>
+<div class="domain-card"><a href="https://blockcentral.xyz" target="_blank"><h3>BlockCentral.xyz</h3></a></div>
+<div class="domain-card"><a href="https://nftnexus.xyz" target="_blank"><h3>NFTNexus.xyz</h3></a></div>
+<div class="domain-card"><a href="https://coinmeta.xyz" target="_blank"><h3>CoinMeta.xyz</h3></a></div>
+<div class="domain-card"><a href="https://fatu.xyz" target="_blank"><h3>Fatu.xyz</h3></a></div>
+</section>
+<footer>
+        © 2025 Aurum Domains · Raritas Pretium Est
+    </footer>
+<script>
+document.querySelectorAll('.accordion-toggle').forEach((btn, idx) => {
+    btn.addEventListener('click', () => {
+        const contents = document.querySelectorAll('.accordion-content');
+        contents.forEach((content, cIdx) => {
+            if (cIdx === idx) {
+                content.classList.toggle('open');
+            } else {
+                content.classList.remove('open');
+            }
+        });
+    });
+});
+</script></body>
+</html>
